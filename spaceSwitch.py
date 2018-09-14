@@ -26,7 +26,7 @@ def chBoxOff(*args):
     cmds.textField(nfield, e=1, en=0)
 
 '''
-	Main method to do the checked space constraints more comments
+	Main method to do the constraints more comments
 '''
 
 def prt(*args):
