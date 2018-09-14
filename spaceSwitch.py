@@ -25,6 +25,10 @@ def chBoxOn(*args):
 def chBoxOff(*args):
     cmds.textField(nfield, e=1, en=0)
 
+'''
+	Main method to do the constraints
+'''
+
 def prt(*args):
     state = cmds.checkBox(cbox, q=1, v=1)
     if not state:
