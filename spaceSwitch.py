@@ -53,7 +53,11 @@ def prt(*args):
         cmds.setAttr(cond+".colorIfFalseR", 0)
         cmds.connectAttr(ctrl+".space", cond+".firstTerm")
         cmds.connectAttr(cond+".outColorR", cnst[0]+"."+i)
-        
+
+'''
+	Mel UI commands
+'''
+
 window = cmds.window('Space switch UI')
 cmds.columnLayout( adjustableColumn=True )
 field = cmds.textField(en=0, text = "source objects")
