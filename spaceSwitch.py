@@ -1,5 +1,9 @@
 import maya.cmds as cmds
 
+'''
+	Space switch constraint for rigging
+'''
+
 def srcTxt(*args):
     global src
     src = cmds.ls(sl=1)
